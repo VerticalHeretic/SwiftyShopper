@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftyShopperCLI}",
+            "name": "Debug SwiftyShopperCLI",
+            "program": "${workspaceFolder:SwiftyShopperCLI}/.build/debug/SwiftyShopperCLI",
+            "preLaunchTask": "swift: Build Debug SwiftyShopperCLI"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftyShopperCLI}",
+            "name": "Release SwiftyShopperCLI",
+            "program": "${workspaceFolder:SwiftyShopperCLI}/.build/release/SwiftyShopperCLI",
+            "preLaunchTask": "swift: Build Release SwiftyShopperCLI"
+        }
+    ]
+}
