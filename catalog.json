@@ -1,12 +1,1 @@
-[
-    {
-        "name": "Product 1",
-        "id": "70622FD7-7284-4346-81E2-260F5F273933",
-        "price": 21.37
-    },
-    {
-        "id": "F481416B-5A4C-4429-B60C-34329DF9D944",
-        "price": 21.37,
-        "name": "Product 1"
-    }
-]
+[{"price":21.37,"name":"Product 1","id":"70622FD7-7284-4346-81E2-260F5F273933"},{"price":21.37,"name":"Product 1","id":"F481416B-5A4C-4429-B60C-34329DF9D944"},{"price":21.37,"name":"Product 1","id":"28A84B25-5330-4246-8C40-6C3401709015"},{"name":"Product 1","price":21.37,"id":"CCB9265F-C746-4FE0-9CC7-87FE305CD94B"},{"id":"3CD25C3D-679D-4BD5-9F74-D30D9548865C","name":"Product 1","price":21.37},{"price":21.37,"id":"0AC7DCB8-C5C4-4752-AADB-0597BD73EC02","name":"Dildo"}]

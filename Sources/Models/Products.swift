@@ -26,6 +26,21 @@ func addProduct(id: UUID, name: String, price: Double) {
     writeProductsToFile(filePath, products: products)
 }
 
+func deleteProduct(id: UUID) {
+    var products = readProductsFromFile(filePath)
+    products.removeAll(where: { $0.id == id })
+
+    writeProductsToFile(filePath, products: products)
+}
+
+func showProducts() {
+    let products = readProductsFromFile(filePath)
+
+    products.forEach {
+        print("| ID: \($0.id) | Name: \($0.name) | Price: \($0.price) |")
+    }
+}
+
 func readProductsFromFile(_: String) -> [Product] {
     // Implementation for reading JSON from file
     let jsonDecoder = JSONDecoder()
