@@ -1,3 +1,9 @@
+//
+//  SwiftyShopper.swift
+//
+//  Copyright © 2024 VerticalCoding Łukasz Stachnik.
+//
+
 import ArgumentParser
 
 @main
